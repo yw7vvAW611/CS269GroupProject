@@ -18,3 +18,9 @@ Use `python3 clean.py` to generate the csv file from the json raw data for Finan
 2. Activate conda: `conda activate cs269`
 3. Open Jupyter Notebook: `jupyter notebook FinBERT.ipynb`
 4. After you finish coding: `conda deactivate` 
+
+
+
+
+# Fine-Tuning the model
+We use `train.csv`, `validation.csv` and `test.csv` under `fine and tune data` folder to fine and tune the model. The code is referenced in `finbert_training.ipynb`.
